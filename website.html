@@ -330,8 +330,51 @@ a {
 </head>
 <body data-offset="50" data-target=".navbar" data-spy="scroll"><nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"><div class="container-fluid"><div class="collapse navbar-collapse" id="navbarResponsive"><ul class="navbar-nav ml-auto"><li class="nav-item active">
   								<a class="nav-link scroll" href="#">Home</a>
-  						</li></ul></div></div></nav></body>
+  						</li></ul><a class="nav-link scroll" href="#">About</a></div><a class="nav-link scroll" href="#">Shop</a></div><a class="nav-link scroll" href="#">Contact</a></nav></body>
 </html>
+
+<head>
+<title>w3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {images;}
+</style>
+</head>
+
+<body>
+
+</div>
+
+<div id="buzz">
+  <div style="text-align: center;">
+  <h1> <head> <strong>	Walk Into The World Of MakeUp With WAN MakeUp  </strong> </head></h1>
+  </div>
+</div>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/makeup6.jpg" style="width:70%">
+  <img class="mySlides" src="images/makeup7.png" style="width:70%">
+  <img class="mySlides" src="images/makeup5.jpg" style="width:70%">
+  <img class="mySlides" src="images/ime.jpg" style="width:70%">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
 
     <div class="container">
@@ -343,7 +386,7 @@ a {
 
             </div>
 
-            <div>  <a class="nav-link scroll" href= "about.html"> About </a>
+            <div>
             </div>
 <div>
               <a class="nav-link scroll" href= "shop.html"> Shop </a>
@@ -362,42 +405,32 @@ a {
       <div style="text-align: center;">
 
 
-  </div>
 
-  <div id="buzz">
-    <div style="text-align: center;">
-  	<h1> <head> <strong>	Walk Into The World Of MakeUp With WAN MakeUp  </strong> </head></h1>
-  	</div>
-	</div>
 
     <div class="row">
       <div class="col-sm-4">
         <div style="text-align: center;">
       <img src='images/makeup1.jpg'  width="400" height="300" >
 
-      <p> <h2><strong> <color="red"> Red Lippy For Every Occassion </h2></strong></p>
-      <div style="text-align: center;">
 
-      <img src= 'images/imgg.jpg'
-    width="400" height="300" >
-    </div>
     <div class="row">
       <div class="col-sm-4">
 
     <div style="text-align: center;">
+
       <img src='images/makeup3.jpg' width="400" height="300" >
 
       <img class=“img-circle”
 
       Class ="text-center"
-      <p> <strong> <h3> This Delilah Collection Set* will get you all the attention you need. Your mascara will get those eyes glowing,
-         your foundation will be popping and those pink lips oh sis you will be the bomb!. xox </strong></h3> </p>
-
+      <img class="mySlides" src="images/im2.jpg"width="400" height="300" >
+      <p> <strong> <h3> SHOP OUR DELILAH SET NOW THIS CHRISTMAS!* </strong></h3> </p>
+<p>
       <small>*Whilst stocks last</small>
     </div>
 
 
-    </div
+  </p>
 
 
         <label for="email">Sign Up To Our Mailing List - Email</label>
