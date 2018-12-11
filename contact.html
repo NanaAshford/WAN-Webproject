@@ -1,1 +1,386 @@
-Contact
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Contact Us</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<style>
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ul, ol {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block;
+}
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	line-height: 1.4285;
+	color: #FFC0CB;
+	background-color: #FFC06CB;
+}
+html {
+	font-size: 10px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a {
+	color: #337ab7;
+	text-decoration: none;
+}
+*, ::after, ::before {
+	box-sizing: border-box;
+}
+.nav-item {
+	font-size: 15px;
+}
+.navbar-nav li {
+	padding-right: 20px;
+}
+/* @media all and (min-width:768px) */
+.navbar-nav > li {
+	float: left;
+}
+dl, ol, ul {
+	margin-top: 0px;
+	margin-bottom: 1rem;
+}
+.navbar-nav {
+	margin: 7.5px -15px;
+}
+/* @media all and (min-width:768px) */
+.navbar-nav {
+	float: left;
+	margin: 0;
+}
+.navbar-nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	list-style: none;
+}
+.ml-auto, .mx-auto {
+	margin-left: auto !important;
+}
+/* @media all and (min-width:768px) */
+.navbar-expand-md .navbar-nav {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+.collapse {
+	display: none;
+}
+.navbar-collapse {
+	padding-right: 15px;
+	padding-left: 15px;
+	overflow-x: visible;
+	-webkit-overflow-scrolling: touch;
+	border-top: 1px solid transparent;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,0.1);
+}
+/* @media all and (min-width:768px) */
+.navbar-collapse {
+	width: auto;
+	border-top: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.collapse {
+	display: none;
+}
+.navbar-collapse {
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+/* @media all and (min-width:768px) */
+.navbar-collapse.collapse {
+	display: block !important;
+	height: auto !important;
+	padding-bottom: 0px;
+	overflow: visible !important;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+/* @media all and (min-width:768px) */
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+/* @media all and (min-width:768px) */
+.navbar-expand-md .navbar-collapse {
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto;
+}
+.container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container-fluid {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navbar > .container, .navbar > .container-fluid {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+/* @media all and (min-width:768px) */
+.navbar-expand-md > .container, .navbar-expand-md > .container-fluid {
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+	display: block;
+}
+.navbar {
+	padding: .8rem;
+}
+.navbar {
+	position: relative;
+	min-height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+}
+/* @media all and (min-width:768px) */
+.navbar {
+	border-radius: 4px;
+}
+.navbar {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: .5rem 1rem;
+}
+/* @media all and (min-width:768px) */
+.navbar-expand-md {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+}
+.bg-light {
+	background-color: #ffc0cb !important;
+}
+.sticky-top {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0px;
+	z-index: 1020;
+}
+body {
+	margin: 0;
+}
+body {
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+}
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+html {
+	font-family: sans-serif;
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	-webkit-tap-highlight-color: transparent;
+}
+:root {
+	--blue: #007bff;
+	--indigo: #6610f2;
+	--purple: #6f42c1;
+	--pink: #e83e8c;
+	--red: #dc3545;
+	--orange: #fd7e14;
+	--yellow: #ffc107;
+	--green: #28a745;
+	--teal: #20c997;
+	--cyan: #17a2b8;
+	--white: #fff;
+	--gray: #6c757d;
+	--gray-dark: #343a40;
+	--primary: #007bff;
+	--secondary: #6c757d;
+	--success: #28a745;
+	--info: #17a2b8;
+	--warning: #ffc107;
+	--danger: #dc3545;
+	--light: #f8f9fa;
+	--dark: #343a40;
+	--breakpoint-xs: 0;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+	--font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	--font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+a {
+	background-color: transparent;
+}
+a {
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+.nav-link {
+	font-size: 1.1em !important;
+}
+.nav-link {
+	display: block;
+	padding: .5rem 1rem;
+}
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+/* @media all and (min-width:768px) */
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.navbar-nav .nav-link {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+/* @media all and (min-width:768px) */
+.navbar-expand-md .navbar-nav .nav-link {
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(0, 0, 0, 0.5);
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: rgba(0, 0, 0, 0.9);
+}
+</style>
+<body>
+  <header id="sie-header" class="site js-site-header" style="overflow: hidden; 119px;"</header>
+    <div class="site-container">
+      <div id="node-5184" class ="node node-elc-nodeblock no-sidebars clearfix" role="articulate" trackname="Customer Service - Navigation Menu for all pages|Customer Service - Navigation Menu for all pages|UKPROJECT-55-LiveEngage">
+      </div>
+      <div class="contact-us-page responsive-container">
+        <section>
+          <ul class="js-live-chat">
+            <div class="title" </div>
+            <div class="details">
+              <p>
+                <b>TALK TO US!</b>
+                <br>"OUR ARTISTS ARE AVAILABLE"</br>
+                <span id="LP_DIV_1505814353403"><div id="LPMcontainer-1544474722824-1" class="LPMcontainer LPMoverlay" role="button" tabindex="0" style="margin: 1px; padding: 0px; border-style: solid; border-width: 0px; font-style: normal; font-weight: normal; font-variant: normal; list-style: none outside none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: normal; word-spacing: normal; background-repeat: repeat-x; background-position: left bottom; cursor: auto; display: block; position: relative; top: 0px; left: 0px;"><a data-lp-event="click">CHAT LIVE</a></div></span>
+                <span id="LP_DIV_1506001428446"></span>
+              </p>
+              <p>
+                <b>ORDER/TECHNICAL QUESTIONS</b>
+                <br>
+                <span id="LP_DIV_1505814374193">
+                  <div id="LPMcontainer-1544474722832-2" class="LPMcontainer LPMoverlay" role="button" tabindex="0" style="margin: 1px; padding: 0px; border-style: solid; border-width: 0px; font-style: normal; font-weight: normal; font-variant: normal; list-style: none outside none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: normal; word-spacing: normal; background-repeat: repeat-x; background-position: left bottom; cursor: auto; display: block; position: relative; top: 0px; left: 0px;">
+                    <a data-lp-event="click">CHAT LIVE</a></div></span>
+                  </div>
+                <span id="LP_DIV_1505989622576"></span>
+              </p>
+             </div>
+            </li>
+            <li class="js-call-us">
+        <div class="title">call us</div>
+        <div class="details"><p>
+  <b>ONLINE ORDER QUERIES</b> <br>
+  <span class="phone-number">0800 000 0000</span> <br>
+</p>
+<p id="call_details_rm"><a href="javascript:void();">SEE DETAIL FOR ALL OTHER QUERIES</a></p>
+<div id="call_details_msg" class="hidden">
+  <p><b>GIFT CARD AND E-CARD QUERIES</b><br>
+      <span class="phone-number">08081 0000</span> (VOUCHER EXPRESS)<br>
+  </p>
+  <p>
+    <b>STORE AND COUNTER QUERIES</b><br>
+    <span class="phone-number">0800 000 000</span><br><br>
+  </p>
+  <p>
+    <b>GENERAL QUERIES</b><br>
+    <span class="phone-number">0370 000 000</span><br>
+    INCLUDING MARKETING, PR AND ARTIST RELATIONS <br>
+  </p>
+  <p>
+    <b>MAIL ORDER</b><br>
+    <span class="phone-number">0800 054 6076</span><br>
+  </p>
+  <p>
+    <b>UK W.A.N PRO</b><br>
+    <span class="phone-number">0800 054 2676</span><br>
+  </p>
+</div></div>
+      </li>
+      <li class="js-customer-service">
+        <div class="title">Email Customer Service</div>
+        <div class="details">For issues regarding your order, account, website, product availability or concerns,  W·A·N stores or other general queries or comments. Your email will be answered within 72 hours. <a href="#cshead" class="js-email-customer-service">Email W.A.N</a></div>
+      </li>
+      <li class="js-email-artist">
+        <div class="title">Email An Artist</div>
+        <div class="details">Email our W.A.N email experts for advice, application tips, shade matching advice and more. <a href="#cshead" class="js-email-artist">Email an artist</a></div>
+     </li>
+   </body>
+
+
+</html>
